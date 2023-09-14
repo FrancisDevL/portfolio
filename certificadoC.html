@@ -12,7 +12,7 @@
 
     <div class="nav">
         <div class="nome">
-            <h1>Francis</h1>
+            <h1>FrancisDev</h1>
 
         </div><!--nome-->
         <ul>
@@ -33,11 +33,22 @@
                 box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
                 border-radius: 3%;
             }
+
+            .animation.show {
+    transform: translateX(0%);
+}
+
+.animation {
+    transform: translateX(700%);
+    transition: 1s;
+}
         </style>
-        <img src="styles/certificadocss.png">
+        <div class="animation">
+            <img src="styles/certificadocss.png">
+        </div>
 
     </header>
-
+    <script src="scroolanimation.js"></script>
 </body>
 
 </html>
